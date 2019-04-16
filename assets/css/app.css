@@ -1,0 +1,19 @@
+.muted-text {
+ color: #aaa;
+}
+
+/* Header Section (Navigation Bars) */
+.nav-dark {
+ background-color: #000;
+ color: #aaa;
+}
+
+.nav ul {
+ display: flex;
+ flex-direction: row;
+ margin: 0 15px;
+}
+
+.nav-small ul li {
+ padding: 8px;
+}
