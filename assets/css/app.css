@@ -24,19 +24,31 @@ body {
 }
 
 /* Header Section (Navigation Bars) */
-.nav-dark {
- background-color: #000;
- color: #aaa;
-}
-
 .nav ul {
  display: flex;
  flex-direction: row;
  margin: 0 15px;
 }
 
+.nav-dark {
+ background-color: #000;
+ color: #aaa;
+}
+
+.nav-dark ul li a {
+ color: #aaa;
+ font-size: 12px;
+ font-weight: 600;
+ text-decoration: none;
+}
+
+.nav-dark ul .active a,
+.nav-dark ul li a:hover {
+ color: #fff;
+}
+
 .nav-small ul li {
- padding: 8px;
+ padding: 9px;
 }
 
 .main-nav-holder {
