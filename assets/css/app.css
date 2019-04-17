@@ -64,7 +64,7 @@
 }
 .latest_news{
 	display: grid;
-	grid-template: repeat(2, 8em) / repeat(4, 1fr);
+	grid-template: repeat(2, 16em) / repeat(4, 1fr);
 	grid-gap: 20px;
 /*	border: 1px solid black;
 */	padding: 20px;
