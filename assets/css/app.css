@@ -86,7 +86,7 @@ body {
 
 .hero1 {
  background-color: #000;
- background-image: url(https://i.ytimg.com/vi/OnWolLQSZic/hqdefault.jpg);
+ background-image: url("../images/hero-section/battledroid-Cropped-796x419.jpg");
  background-position: 50%;
  background-size: cover;
  grid-column: 1/5;
@@ -106,6 +106,15 @@ body {
  background-color: gray;
  grid-column: 5/7;
  grid-row: 2/3;
+}
+
+.overlay {
+ background: url("../images/cover-gradient.png") left top no-repeat,
+  url("../images/image-gradient.png") right bottom repeat-x;
+ background-size: cover;
+ height: 100%;
+ opacity: .6;
+ will-change: opacity;
 }
 
 .latest-news {
