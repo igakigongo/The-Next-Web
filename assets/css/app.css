@@ -1,3 +1,24 @@
+@font-face {
+ font-family: "ARS Maquette";
+ src: url("../fonts/ars-maquette-bold.eot") format("eot"),
+  url("../fonts/ars-maquette-regular.woff") format("woff");
+}
+
+@font-face {
+ font-family: "Avalon";
+ src: url("../fonts/avalon-bold.woff") format("woff");
+}
+
+@font-face {
+ font-family: "Shentox";
+ src: url("../fonts/shentox-medium.woff") format("woff");
+}
+
+body {
+ font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+ font-size: 14px;
+}
+
 .muted-text {
  color: #aaa;
 }
@@ -110,4 +131,81 @@
 
 .apps-gears-tech .news {
  border: 1px solid black;
+ =======background-color: orange;
+ padding: 5px 23px;
+}
+
+.container {
+ padding: 3px 5px;
+ height: 525px;
+ display: grid;
+ grid-template: repeat(2, 16em) / repeat(6, 1fr);
+ grid-gap: 10px;
+}
+
+.hero1 {
+ grid-column: 1/5;
+ grid-row: 1/3;
+ background-image: url(https://i.ytimg.com/vi/OnWolLQSZic/hqdefault.jpg);
+ background-color: #000;
+ background-size: cover;
+ background-position: 50%;
+ will-change: opacity;
+}
+
+.hero2 {
+ background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/Xbox-One-S-All-Digital-hed-image-796x419.jpg);
+ background-color: #000;
+ background-size: cover;
+ background-position: 50%;
+ grid-column: 5/7;
+ background-color: orange;
+ grid-row: 1/2;
+}
+
+.hero3 {
+ background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/earthboom-796x417.jpg);
+ background-color: #000;
+ background-size: cover;
+ background-position: 50%;
+ grid-column: 5/7;
+ background-color: gray;
+ grid-row: 2/3;
+}
+
+.latest_news {
+ display: grid;
+ grid-template: repeat(2, 16em) / repeat(4, 1fr);
+ grid-gap: 20px;
+ padding: 20px;
+ margin-top: 50px;
+}
+
+.latest_news .news {
+ border: 1px solid black;
+}
+
+.latest_funding {
+ display: grid;
+ grid-template: repeat(1, 16em) / repeat(4, 1fr);
+ grid-gap: 20px;
+ padding: 20px;
+ margin-top: 50px;
+}
+
+.latest_funding .news {
+ border: 1px solid black;
+}
+
+.apps_gears_tech {
+ display: grid;
+ grid-template: repeat(3, 30em) / repeat(3, 1fr);
+ grid-gap: 20px;
+ padding: 20px;
+ margin-top: 50px;
+}
+
+.apps_gears_tech .news {
+ border: 1px solid black;
+ >>>>>>>dffe0ef55a1a0b7f4b1f94d58253a4a997beb872
 }
