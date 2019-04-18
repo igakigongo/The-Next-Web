@@ -1,11 +1,12 @@
-.latest-news {
+.latest-news .grid {
  display: grid;
- grid-gap: 20px;
- grid-template: repeat(2, 16em) / repeat(4, 1fr);
- margin-top: 50px;
- padding: 20px;
+ grid-gap: 1.25em;
+ grid-auto-rows: 16em;
+ grid-template-columns: repeat(4, 1fr);
+ margin-top: 3em;
 }
 
-.latest-news .news {
+.news-article {
  border: 1px solid black;
+ border-radius: 2px;
 }
