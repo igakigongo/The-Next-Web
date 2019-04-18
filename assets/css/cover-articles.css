@@ -36,35 +36,25 @@
 
 .overlay {
  background: url("../images/cover-gradient.png") left top no-repeat,
- url("../images/image-gradient.png") bottom right  repeat-x;
+  url("../images/image-gradient.png") bottom right repeat-x;
  background-size: cover;
  height: 100%;
  opacity: .6;
  will-change: opacity;
 }
-.overlay2{
+
+.overlay2 {
  background: url("../images/image-gradient.png") bottom right repeat-x;
  background-size: cover;
  height: 100%;
  opacity: .5;
 }
-.overlay3{
+
+.overlay3 {
  background: url("../images/image-gradient.png") right bottom repeat-x;
  background-size: cover;
  height: 100%;
  opacity: .5;
-}
-
-.latest-news {
- display: grid;
- grid-gap: 20px;
- grid-template: repeat(2, 16em) / repeat(4, 1fr);
- margin-top: 50px;
- padding: 20px;
-}
-
-.latest-news .news {
- border: 1px solid black;
 }
 
 .latest-funding {
