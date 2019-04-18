@@ -36,14 +36,14 @@
 
 .overlay {
  background: url("../images/cover-gradient.png") left top no-repeat,
- url("../images/image-gradient.png") right bottom repeat-x;
+ url("../images/image-gradient.png") bottom right  repeat-x;
  background-size: cover;
  height: 100%;
  opacity: .6;
  will-change: opacity;
 }
 .overlay2{
- background: url("../images/image-gradient.png") right bottom repeat-x;
+ background: url("../images/image-gradient.png") bottom right repeat-x;
  background-size: cover;
  height: 100%;
  opacity: .5;
