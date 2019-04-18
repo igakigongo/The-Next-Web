@@ -72,8 +72,8 @@
  grid-gap: 20px;
  grid-template: repeat(1, 16em) / repeat(4, 1fr);
  margin-top: 50px;
- padding: 20px;
-}
+/* padding: 20px;
+*/}
 
 .latest-funding .news {
  border: 1px solid black;
