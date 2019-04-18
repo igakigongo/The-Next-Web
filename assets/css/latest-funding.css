@@ -22,3 +22,16 @@
 	flex-direction: row;
 	align-items: center;
 }
+.latest-funding .clear{
+	display: flex;
+	flex-direction: column;
+}
+.latest-funding .clear>span{
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	background-color: red;
+	color: #fff;
+}
