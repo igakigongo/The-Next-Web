@@ -122,6 +122,24 @@ section .main-heading a {
  margin-left: 4px;
 }
 
+.sub-section ul {
+ direction: rtl;
+ padding-top: 1em;
+}
+
+.sub-section ul li {
+ border-left: 1px solid #f42;
+ color: #f42;
+ display: inline-block;
+ font-size: 1em;
+ margin-left: .45em;
+ padding-left: .45em;
+}
+
+.sub-section ul li:last-child {
+ border-left: none;
+}
+
 @media (min-width: 768px) {
  section .main-heading {
   font-size: 28px;
