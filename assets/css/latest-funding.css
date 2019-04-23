@@ -39,6 +39,32 @@
  display: flex;
  flex-direction: column;
 }
+.latest-funding .clear3, .section-3{
+	background-color: #fffaf8;
+}
+.latest-funding .clear3{
+	padding: 15px 10px;
+	/*margin-left: 15px;*/
+}
+.latest-funding .clear3 p{
+	margin-bottom: 10px;
+}
+.latest-funding .clear3 p:nth-child(2){
+	margin-bottom: 0;
+}
+.latest-funding .clear3 span{
+	padding-right: 10px;
+}
+.news p.underline{
+	border-bottom: solid 1px red;
+}
+.news .section-3{
+	padding: 15px 10px;
+}
+.news .section-3 p{
+	line-height: 1.3;
+}
+
 
 .funding-amount, .funding-title {
  font-family: Avalon, sans-serif;
