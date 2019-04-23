@@ -1,0 +1,12 @@
+.apps-gear-tech .grid {
+ display: grid;
+ grid-auto-rows: 16em;
+ grid-gap: 1.25em;
+ grid-template-columns: repeat(3, 1fr);
+ margin-top: 3em;
+}
+
+.main-ad {
+ border: 1px solid black;
+ border-radius: 2px;
+}
