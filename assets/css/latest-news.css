@@ -1,8 +1,5 @@
-.latest-news {
- padding-top: 1.5em;
-}
-
 .latest-news .grid {
+ clear: both;
  display: grid;
  grid-auto-rows: 16em;
  grid-gap: 1.25em;
@@ -13,28 +10,4 @@
 .news-article {
  border: 1px solid black;
  border-radius: 2px;
-}
-
-.latest-news .main-heading a {
- color: #f42;
- font-family: Avalon, sans-serif;
- font-weight: 700;
- line-height: 1.1;
- text-decoration: none;
-}
-
-.latest-news .main-heading a i {
- display: inline-block;
- margin-bottom: 2px;
- margin-left: 4px;
-}
-
-@media (min-width: 768px) {
- .latest-news .main-heading {
-  font-size: 28px;
- }
-
- .latest-news .main-heading a i {
-  font-size: 16px;
- }
 }

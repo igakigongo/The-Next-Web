@@ -30,6 +30,7 @@ body {
 }
 
 .bg-light-pink {
+ background-color: rgb(255, 68, 34);
  background-color: rgba(255, 68, 34, .08);
 }
 
@@ -88,4 +89,45 @@ body {
 .nav-advert {
  background-color: #fd3;
  padding: 5px 23px;
+}
+
+/* General Section Styles */
+section {
+ padding-top: 1.5em;
+}
+
+section .main-heading, section .sub-section {
+ width: 50%;
+}
+
+section .main-heading {
+ float: left;
+}
+
+section .sub-section {
+ float: right;
+}
+
+section .main-heading a {
+ color: #f42;
+ font-family: Avalon, sans-serif;
+ font-weight: 700;
+ line-height: 1.1;
+ text-decoration: none;
+}
+
+.main-heading a i {
+ display: inline-block;
+ margin-bottom: 2px;
+ margin-left: 4px;
+}
+
+@media (min-width: 768px) {
+ section .main-heading {
+  font-size: 28px;
+ }
+
+ section .main-heading a i {
+  font-size: 16px;
+ }
 }
