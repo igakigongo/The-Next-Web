@@ -1,9 +1,8 @@
 .apps-gear-tech .grid {
  display: grid;
- /*grid-auto-rows: 16em;*/
+ grid-auto-rows: minmax(270px, auto);
  grid-gap: 1.25em;
  grid-template-columns: repeat(3, 1fr);
- grid-auto-rows: minmax(270px, auto);
  margin-top: 3em;
 }
 
@@ -11,163 +10,154 @@
  border: 1px solid black;
  border-radius: 2px;
 }
-.ad-content{
-	clear: both;
-}
-.img1{
-	height: 270px;
-	width: 100%;
-	background-image: url('../images/apps-gear-tech/img2.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative; 
-}
-.float h4, .float p{
-	color: white;
-	font-weight: 700;
-	font-size: 14px;
-}
-.ad-content .float {
-  position: absolute;
-  color: white;
-  top: 150px;
-  line-height: 20px;
-  padding: 14px;
-}
-.float p.first{
-	line-height: 1.4;
-	margin-bottom: 5px;
-}
-.latest-content{
-	display: flex;
-	flex-direction: row;
-	height: 96px;
-	width: 100%;
-}
-.img-applebag{
-	background-image: url(../images/apps-gear-tech/Apple-tag.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 45% 90%;
-	width: 35%;
-	height: 96px;
-}
-.latest-content .section-latest-header{
-	padding: 20px;
-}
-.section-latest-header h4, h5{
-	line-height: 1.4;
-}
-.img2{
-	height: 270px;
-	width: 100%;
-	background-image: url('../images/apps-gear-tech/philips-hue-starter-kit-header-image-368x276.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative; 
-}
-.img-white{
-	background-image: url(../images/apps-gear-tech/white.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 45% 90%;
-	width: 35%;
-	height: 96px;
-}
-.img3{
-	height: 270px;
-	width: 100%;
-	background-image: url('../images/apps-gear-tech/Photoxpress_5557101.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative; 
-}
-.img-Photoxpress{
-	background-image: url(../images/apps-gear-tech/Pre-Launch-KV-796x448.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 90%;
-	width: 35%;
-	height: 96px;
-}
-.img4{
-	height: 270px;
-	width: 100%;
-	background-image: url('../images/apps-gear-tech/Untitled-design-7-368x276.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative; 
-}
-.img-chicken{
-	background-image: url(../images/apps-gear-tech/chicken1200-368x276.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position:45% 90%;
-	width: 35%;
-	height: 96px;
-}
-.img5{
-	height: 270px;
-	width: 100%;
-	background-image: url('../images/apps-gear-tech/roland-368x276.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative; 
-}
-.img-Coinbase{
-	background-image: url(../images/apps-gear-tech/Coinbase.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position:45% 90%;
-	width: 35%;
-	height: 96px;
-}
-.img6{
-	height: 270px;
-	width: 100%;
-	background-image: url('../images/apps-gear-tech/Opening-Party-23.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative; 
+
+.ad-content {
+ clear: both;
 }
 
-.img-Apple-MacBook{
-	background-image: url(../images/apps-gear-tech/Apple-MacBook.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position:45% 90%;
-	width: 35%;
-	height: 96px;
+.img1 {
+ height: 270px;
+ width: 100%;
+ background-image: url('../images/apps-gear-tech/img2.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
 }
-.img7{
-	height: 270px;
-	width: 100%;
-	background-image: url('../images/apps-gear-tech/shutterstock.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative; 
+
+.float h4, .float p {
+ color: white;
+ font-weight: 700;
+ font-size: 14px;
 }
-.img-Stadia-black-hed{
-	background-image: url(../images/apps-gear-tech/Stadia-black-hed.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position:45% 90%;
-	width: 35%;
-	height: 96px;
+
+.ad-content .float {
+ position: absolute;
+ color: white;
+ top: 150px;
+ line-height: 20px;
+ padding: 14px;
 }
-.img8{
-	height: 270px;
-	width: 100%;
-	background-image: url('../images/apps-gear-tech/firefox-stop.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative; 
+
+.float p.first {
+ line-height: 1.4;
+ margin-bottom: 5px;
 }
-.img-MK-MAGA-hat{
-	background-image: url(../images/apps-gear-tech/MK-MAGA-hat.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position:45% 90%;
-	width: 35%;
-	height: 96px;
+
+.latest-content {
+ display: flex;
+ flex-direction: row;
+ height: 96px;
+ width: 100%;
+}
+
+.latest-content .section-latest-header {
+ padding: 20px;
+}
+
+.section-latest-header h4, h5 {
+ line-height: 1.4;
+}
+
+.latest-content .right-floated-image {
+ background-position: 45% 90%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 96px;
+ width: 35%;
+}
+
+/* Latest Content Images */
+.img-applebag {
+ background-image: url(../images/apps-gear-tech/Apple-tag.jpg);
+}
+
+.img-apple-macbook {
+ background-image: url(../images/apps-gear-tech/Apple-MacBook.jpg);
+}
+
+.img-chicken {
+ background-image: url(../images/apps-gear-tech/chicken1200-368x276.png);
+}
+
+.img-coinbase {
+ background-image: url(../images/apps-gear-tech/Coinbase.jpg);
+}
+
+.img-mk-maga-hat {
+ background-image: url(../images/apps-gear-tech/MK-MAGA-hat.jpg);
+}
+
+.img-photoxpress {
+ background-image: url(../images/apps-gear-tech/Pre-Launch-KV-796x448.png);
+}
+
+.img-stadia-black-hed {
+ background-image: url(../images/apps-gear-tech/Stadia-black-hed.jpg);
+}
+
+.img-white {
+ background-image: url(../images/apps-gear-tech/white.png);
+}
+
+.img2 {
+ height: 270px;
+ width: 100%;
+ background-image: url('../images/apps-gear-tech/philips-hue-starter-kit-header-image-368x276.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+.img3 {
+ height: 270px;
+ width: 100%;
+ background-image: url('../images/apps-gear-tech/Photoxpress_5557101.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+.img4 {
+ height: 270px;
+ width: 100%;
+ background-image: url('../images/apps-gear-tech/Untitled-design-7-368x276.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+.img5 {
+ height: 270px;
+ width: 100%;
+ background-image: url('../images/apps-gear-tech/roland-368x276.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+.img6 {
+ height: 270px;
+ width: 100%;
+ background-image: url('../images/apps-gear-tech/Opening-Party-23.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+.img7 {
+ height: 270px;
+ width: 100%;
+ background-image: url('../images/apps-gear-tech/shutterstock.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+.img8 {
+ height: 270px;
+ width: 100%;
+ background-image: url('../images/apps-gear-tech/firefox-stop.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
 }
