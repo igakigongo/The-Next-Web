@@ -1,9 +1,9 @@
 .latest-news .grid {
  clear: both;
  display: grid;
- grid-auto-rows: 16em;
+ grid-auto-rows: 17em;
  grid-gap: 1.25em;
- grid-template-columns: repeat(4, 1fr);
+ grid-template-columns: repeat(4, 270px);
  margin-top: 3em;
 }
 
@@ -20,7 +20,7 @@
 	background-size: cover;
 	display: block;
 	width: 100%;
-	padding-top: 51%;
+	padding-top: 50%;
 	margin-bottom: 8px;
 
 
