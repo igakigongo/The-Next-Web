@@ -22,7 +22,7 @@
 	background-size: cover;
 	position: relative; 
 }
-.float h4,p{
+.float h4, .float p{
 	color: white;
 	font-weight: 700;
 	font-size: 14px;
@@ -30,10 +30,47 @@
 .ad-content .float {
   position: absolute;
   color: white;
-  top: 160px;
-  left: 15px;
+  top: 150px;
   line-height: 20px;
+  padding: 14px;
 }
 .float p.first{
-	margin-bottom: 10px;
+	line-height: 1.4;
+	margin-bottom: 5px;
+}
+.latest-content{
+	display: flex;
+	flex-direction: row;
+	height: 96px;
+	width: 100%;
+}
+.img-applebag{
+	background-image: url(../images/apps-gear-tech/Apple-tag.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 45% 90%;
+	width: 35%;
+	height: 96px;
+}
+.latest-content .section-latest-header{
+	padding: 20px;
+}
+.section-latest-header h4, h5{
+	line-height: 1.4;
+}
+.img2{
+	height: 270px;
+	width: 100%;
+	background-image: url('../images/apps-gear-tech/philips-hue-starter-kit-header-image-368x276.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative; 
+}
+.img-applebag{
+	background-image: url(../images/apps-gear-tech/Apple-tag.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 45% 90%;
+	width: 35%;
+	height: 96px;
 }
