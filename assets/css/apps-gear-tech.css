@@ -66,11 +66,108 @@
 	background-size: cover;
 	position: relative; 
 }
-.img-applebag{
-	background-image: url(../images/apps-gear-tech/Apple-tag.jpg);
+.img-white{
+	background-image: url(../images/apps-gear-tech/white.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 45% 90%;
+	width: 35%;
+	height: 96px;
+}
+.img3{
+	height: 270px;
+	width: 100%;
+	background-image: url('../images/apps-gear-tech/Photoxpress_5557101.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative; 
+}
+.img-Photoxpress{
+	background-image: url(../images/apps-gear-tech/Pre-Launch-KV-796x448.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 90%;
+	width: 35%;
+	height: 96px;
+}
+.img4{
+	height: 270px;
+	width: 100%;
+	background-image: url('../images/apps-gear-tech/Untitled-design-7-368x276.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative; 
+}
+.img-chicken{
+	background-image: url(../images/apps-gear-tech/chicken1200-368x276.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:45% 90%;
+	width: 35%;
+	height: 96px;
+}
+.img5{
+	height: 270px;
+	width: 100%;
+	background-image: url('../images/apps-gear-tech/roland-368x276.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative; 
+}
+.img-Coinbase{
+	background-image: url(../images/apps-gear-tech/Coinbase.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:45% 90%;
+	width: 35%;
+	height: 96px;
+}
+.img6{
+	height: 270px;
+	width: 100%;
+	background-image: url('../images/apps-gear-tech/Opening-Party-23.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative; 
+}
+
+.img-Apple-MacBook{
+	background-image: url(../images/apps-gear-tech/Apple-MacBook.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:45% 90%;
+	width: 35%;
+	height: 96px;
+}
+.img7{
+	height: 270px;
+	width: 100%;
+	background-image: url('../images/apps-gear-tech/shutterstock.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative; 
+}
+.img-Stadia-black-hed{
+	background-image: url(../images/apps-gear-tech/Stadia-black-hed.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:45% 90%;
+	width: 35%;
+	height: 96px;
+}
+.img8{
+	height: 270px;
+	width: 100%;
+	background-image: url('../images/apps-gear-tech/firefox-stop.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative; 
+}
+.img-MK-MAGA-hat{
+	background-image: url(../images/apps-gear-tech/MK-MAGA-hat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:45% 90%;
 	width: 35%;
 	height: 96px;
 }
