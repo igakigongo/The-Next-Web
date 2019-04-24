@@ -137,13 +137,28 @@
 
 /* Other Stories */
 .other-stories {
- margin: 1.25em;
+ padding: 1.25em 0;
 }
 
-.other-stories ul li {
+.other-stories li {
+ border-bottom: 1px solid #e8e8e8;
+ box-sizing: content-box;
+ height: 2.25em;
  list-style: disc;
+ list-style-position: inside;
+ padding: .5em 0;
+ position: relative;
 }
 
-.other-stories ul li a, .other-stories ul li a:active, .other-stories ul li a:hover, .other-stories ul li a:visited {
+.other-stories li a {
+ color: #aaa;
+ left: 1em;
+ line-height: 1.4;
+ position: absolute;
+ text-decoration: none;
+}
+
+.other-stories li a:active, .other-stories li a:hover, .other-stories li a:visited {
+ color: #555;
  text-decoration: none;
 }
