@@ -6,9 +6,8 @@
  margin-top: 3em;
 }
 
-.main-ad {
- border: 1px solid black;
- border-radius: 2px;
+.apps-gear-tech .main-heading {
+ padding-bottom: 0.5em;
 }
 
 .ad-content {
@@ -40,6 +39,9 @@
 }
 
 .latest-content {
+ background-color: rgb(255, 68, 34);
+ background-color: rgba(255, 68, 34, .08);
+ color: #f42;
  display: flex;
  flex-direction: row;
  height: 96px;
@@ -52,6 +54,11 @@
 
 .section-latest-header h4, h5 {
  line-height: 1.4;
+}
+
+.section-latest-title {
+ font-weight: 700;
+ line-height: 1.25;
 }
 
 /*Ad Content: Background Images */
@@ -126,4 +133,17 @@
 
 .img-white {
  background-image: url(../images/apps-gear-tech/white.png);
+}
+
+/* Other Stories */
+.other-stories {
+ margin: 1.25em;
+}
+
+.other-stories ul li {
+ list-style: disc;
+}
+
+.other-stories ul li a, .other-stories ul li a:active, .other-stories ul li a:hover, .other-stories ul li a:visited {
+ text-decoration: none;
 }
