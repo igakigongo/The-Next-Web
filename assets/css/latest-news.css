@@ -10,4 +10,33 @@
 .news-article {
  border: 1px solid black;
  border-radius: 2px;
+ padding: 5px;
+}
+
+.news-article .story-image{
+	background-image: url('../images/latest-news/OPPO-header-image-reno-516x270.png');
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	width: 100%;
+	padding-top: 51%;
+	margin-bottom: 8px;
+
+
+}
+.news-article .story-title{
+	font-weight: 700;
+	font-size: 15px;
+	font-size: 16px;
+	line-height:20px
+}
+.news-article .story-byline{
+	color:#aaa;
+	display: flex;
+	flex-direction: row;
+	padding-top: 5px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 1.5;
 }
