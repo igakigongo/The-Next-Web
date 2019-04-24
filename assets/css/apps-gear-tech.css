@@ -12,16 +12,12 @@
 }
 
 .ad-content {
- clear: both;
-}
-
-.img1 {
- height: 270px;
- width: 100%;
- background-image: url('../images/apps-gear-tech/img2.png');
  background-repeat: no-repeat;
  background-size: cover;
+ clear: both;
+ height: 270px;
  position: relative;
+ width: 100%;
 }
 
 .float h4, .float p {
@@ -58,6 +54,40 @@
  line-height: 1.4;
 }
 
+/*Ad Content: Background Images */
+.img1 {
+ background-image: url('../images/apps-gear-tech/img2.png');
+}
+
+.img2 {
+ background-image: url('../images/apps-gear-tech/philips-hue-starter-kit-header-image-368x276.png');
+}
+
+.img3 {
+ background-image: url('../images/apps-gear-tech/Photoxpress_5557101.jpg');
+}
+
+.img4 {
+ background-image: url('../images/apps-gear-tech/Untitled-design-7-368x276.jpg');
+}
+
+.img5 {
+ background-image: url('../images/apps-gear-tech/roland-368x276.jpg');
+}
+
+.img6 {
+ background-image: url('../images/apps-gear-tech/Opening-Party-23.jpg');
+}
+
+.img7 {
+ background-image: url('../images/apps-gear-tech/shutterstock.jpg');
+}
+
+.img8 {
+ background-image: url('../images/apps-gear-tech/firefox-stop.jpg');
+}
+
+/* Latest Content: Right Floated Images */
 .latest-content .right-floated-image {
  background-position: 45% 90%;
  background-repeat: no-repeat;
@@ -66,7 +96,6 @@
  width: 35%;
 }
 
-/* Latest Content Images */
 .img-applebag {
  background-image: url(../images/apps-gear-tech/Apple-tag.jpg);
 }
@@ -97,67 +126,4 @@
 
 .img-white {
  background-image: url(../images/apps-gear-tech/white.png);
-}
-
-.img2 {
- height: 270px;
- width: 100%;
- background-image: url('../images/apps-gear-tech/philips-hue-starter-kit-header-image-368x276.png');
- background-repeat: no-repeat;
- background-size: cover;
- position: relative;
-}
-
-.img3 {
- height: 270px;
- width: 100%;
- background-image: url('../images/apps-gear-tech/Photoxpress_5557101.jpg');
- background-repeat: no-repeat;
- background-size: cover;
- position: relative;
-}
-
-.img4 {
- height: 270px;
- width: 100%;
- background-image: url('../images/apps-gear-tech/Untitled-design-7-368x276.jpg');
- background-repeat: no-repeat;
- background-size: cover;
- position: relative;
-}
-
-.img5 {
- height: 270px;
- width: 100%;
- background-image: url('../images/apps-gear-tech/roland-368x276.jpg');
- background-repeat: no-repeat;
- background-size: cover;
- position: relative;
-}
-
-.img6 {
- height: 270px;
- width: 100%;
- background-image: url('../images/apps-gear-tech/Opening-Party-23.jpg');
- background-repeat: no-repeat;
- background-size: cover;
- position: relative;
-}
-
-.img7 {
- height: 270px;
- width: 100%;
- background-image: url('../images/apps-gear-tech/shutterstock.jpg');
- background-repeat: no-repeat;
- background-size: cover;
- position: relative;
-}
-
-.img8 {
- height: 270px;
- width: 100%;
- background-image: url('../images/apps-gear-tech/firefox-stop.jpg');
- background-repeat: no-repeat;
- background-size: cover;
- position: relative;
 }
