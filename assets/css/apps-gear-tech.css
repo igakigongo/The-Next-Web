@@ -21,16 +21,16 @@
 
 .float h4, .float p {
  color: white;
- font-weight: 700;
  font-size: 14px;
+ font-weight: 700;
 }
 
 .ad-content .float {
- position: absolute;
  color: white;
- top: 150px;
  line-height: 20px;
  padding: 14px;
+ position: absolute;
+ top: 150px;
 }
 
 .float p.first {
@@ -52,7 +52,7 @@
  padding: 20px;
 }
 
-.section-latest-header h4, h5 {
+.section-latest-header h4, .section-latest-header h5 {
  line-height: 1.4;
 }
 
@@ -142,6 +142,8 @@
 
 .other-stories li {
  border-bottom: 1px solid #e8e8e8;
+ -webkit-box-sizing: content-box;
+ -moz-box-sizing: content-box;
  box-sizing: content-box;
  height: 2.25em;
  list-style: disc;
