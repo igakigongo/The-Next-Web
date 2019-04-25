@@ -16,5 +16,31 @@
 }
 
 .deal-image {
- width: 100%
+ border-image-width: 0;
+ width: 100%;
+}
+
+.discount-tag {
+ background: url('../images/latest-deals/deals-ribbon.svg') no-repeat;
+ background-size: cover;
+ height: 6.25em;
+ position: absolute;
+ right: 0;
+ top: 0;
+ width: 6.25em;
+ z-index: 1;
+}
+
+.discount-tag-price {
+ color: #000;
+ font-weight: bold;
+ margin: 0 auto;
+ position: absolute;
+ right: 0;
+ text-align: center;
+ text-transform: uppercase;
+ top: 0;
+ transform: rotate(45deg);
+ transform-origin: 0 0;
+ z-index: 2;
 }

@@ -7,6 +7,10 @@
  margin-top: 3em;
 }
 
+.news-article {
+ position: relative;
+}
+
 .news-article .story-image {
  background-position: 50%;
  background-repeat: no-repeat;
