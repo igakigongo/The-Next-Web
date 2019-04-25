@@ -15,34 +15,6 @@
  font-size: 1.25em;
 }
 
-.latest-deals-image1 {
- background-image: url('../images/latest-deals/sale_18296_primary_image.jpg');
-}
-
-.latest-deals-image2 {
- background-image: url('../images/latest-deals/sale_18661_primary_image.jpg');
-}
-
-.latest-deals-image3 {
- background-image: url('../images/latest-deals/sale_16768_primary_image.jpg');
-}
-
-.latest-deals-image4 {
- background-image: url('../images/latest-deals/sale_14168_primary_image.jpg');
-}
-
-.latest-deals-image5 {
- background-image: url('../images/latest-deals/sale_18184_primary_image.jpg');
-}
-
-.latest-deals-image6 {
- background-image: url('../images/latest-deals/image.jpg');
-}
-
-.latest-deals-image7 {
- background-image: url('../images/latest-deals/sale_17354_primary_image.jpg');
-}
-
-.latest-deals-image8 {
- background-image: url('../images/latest-deals/sale_18667_primary_image.jpg');
+.deal-image {
+ width: 100%
 }

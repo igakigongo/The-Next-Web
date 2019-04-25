@@ -1,7 +1,7 @@
 .latest-news .grid {
  clear: both;
  display: grid;
- grid-auto-rows: 17em;
+ grid-auto-rows: minmax(18em, auto);
  grid-gap: 1.25em;
  grid-template-columns: repeat(4, 1fr);
  margin-top: 3em;
