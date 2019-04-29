@@ -75,19 +75,26 @@ body {
  background-color: #e8e8e8;
  display: flex;
  flex-direction: row;
+ justify-content: space-between;
  padding: 16px 10px;
 }
 
 .main-nav {
- margin-right: 200px;
+ margin-right: 150px;
 }
 
 .main-nav li {
  margin-right: 23px;
 }
 
-.timer-section span {
- padding-right: 20px;
+.timer-section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.timer-section p{
+	 padding-right: 20px;
+
 }
 
 .nav-advert {
