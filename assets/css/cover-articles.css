@@ -3,6 +3,7 @@
  grid-gap: 10px;
  grid-template: repeat(2, 20em) / repeat(6, 1fr);
  padding: 3px 5px;
+ /*z-index: 1;*/
 }
 
 .hero1 {
@@ -15,6 +16,8 @@
  opacity: 1;
  transition: .4s ease;
  will-change: opacity;
+ position: relative;
+ padding: ;
 }
 
 .hero2 {
@@ -81,4 +84,39 @@
  background-color: orange;
  border: 1px solid black;
  padding: 5px 23px;
+}
+.container .overlay{
+	color: white;
+	position: absolute;
+	width: 100%;
+	padding: 20px;
+	/*z-index: 2;*/
+}
+
+.overlay .cover-header{
+	position: relative;
+	top: 300px;
+}
+.cover-header h2{
+	font-size: 56px;
+	line-height: 1;
+	margin-bottom: .25em;
+	font-weight: 700;
+	font-family: "Avalon", sans-serif;
+	opacity: 1;
+}
+.cover-header h2 a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 100%;
+	letter-spacing: -.015em;
+	width: auto;
+	height: auto;
+}
+.cover-byline{
+	display: flex;
+	flex-direction: row;
+}
+.cover-byline li{
+	margin-right: 10px;
 }
