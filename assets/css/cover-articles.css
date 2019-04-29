@@ -107,17 +107,22 @@
 	opacity: 1;
 	color: #f42;
 }
-.container .overlay2{
-	color: white;
-	/*position: absolute;*/
-	width: 100%;
-	/*padding: 20px;*/
+.cover-header h5{
+	text-transform: uppercase;
 }
 
-/*.overlay .cover-header2{
+.container .overlay2{
+	color: white;
+	width: 100%;
+}
+.cover-header2{
+	padding: 10px;
+}
+
+.overlay2 .cover-header2{
 	position: relative;
-	top: 330px;
-}*/
+	top: 195px;
+}
 .cover-header h2 a{
 	color: #fff;
 	text-decoration: none;
@@ -130,7 +135,7 @@
 .cover-header2 h2{
 	font-size: 16px;
 	line-height: 1;
-	margin-bottom: .25em;
+	margin-bottom: .4em;
 	font-weight: 400;
 	font-family: "Avalon", sans-serif;
 	opacity: 1;
@@ -146,6 +151,9 @@
 	height: auto;
 }
 
+.cover-header2 h5{
+	text-transform: uppercase;
+}
 .cover-byline{
 	display: flex;
 	flex-direction: row;
