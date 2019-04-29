@@ -90,13 +90,14 @@
 	position: absolute;
 	width: 100%;
 	padding: 20px;
-	/*z-index: 2;*/
+	
 }
 
 .overlay .cover-header{
 	position: relative;
 	top: 330px;
 }
+
 .cover-header h2{
 	font-size: 56px;
 	line-height: 1;
@@ -106,9 +107,17 @@
 	opacity: 1;
 	color: #f42;
 }
-.cover-header h5{
-	text-transform: uppercase;
+.container .overlay2{
+	color: white;
+	/*position: absolute;*/
+	width: 100%;
+	/*padding: 20px;*/
 }
+
+/*.overlay .cover-header2{
+	position: relative;
+	top: 330px;
+}*/
 .cover-header h2 a{
 	color: #fff;
 	text-decoration: none;
@@ -117,6 +126,26 @@
 	width: auto;
 	height: auto;
 }
+
+.cover-header2 h2{
+	font-size: 16px;
+	line-height: 1;
+	margin-bottom: .25em;
+	font-weight: 400;
+	font-family: "Avalon", sans-serif;
+	opacity: 1;
+	color: #f42;
+}
+
+.cover-header2 h2 a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 100%;
+	letter-spacing: -.015em;
+	width: auto;
+	height: auto;
+}
+
 .cover-byline{
 	display: flex;
 	flex-direction: row;
@@ -125,12 +154,6 @@
 	margin-right: 10px;
 }
 
-.cover-header h2.hero2-hero3{
-	font-size: 16px;
-	line-height: 1;
-	margin-bottom: .25em;
-	font-weight: 400;
-	font-family: "Avalon", sans-serif;
-	/*color: #f42;*/
-}
+
+
 
