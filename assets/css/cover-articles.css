@@ -82,7 +82,7 @@
 
 .overlay .cover-header {
  position: relative;
- top: 330px;
+ top: 220px;
 }
 
 .cover-header h2 {
@@ -152,4 +152,17 @@
 
 .cover-byline li {
  margin-right: 10px;
+}
+.Logo-day-date{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.img-holder {
+	width: 50%;
+}
+.Logo-day-date p{
+	width: 45%;
+	display: flex;
+	justify-content: flex-end;
 }
