@@ -95,7 +95,7 @@
 
 .overlay .cover-header{
 	position: relative;
-	top: 300px;
+	top: 330px;
 }
 .cover-header h2{
 	font-size: 56px;
@@ -104,6 +104,10 @@
 	font-weight: 700;
 	font-family: "Avalon", sans-serif;
 	opacity: 1;
+	color: #f42;
+}
+.cover-header h5{
+	text-transform: uppercase;
 }
 .cover-header h2 a{
 	color: #fff;
@@ -120,3 +124,13 @@
 .cover-byline li{
 	margin-right: 10px;
 }
+
+.cover-header h2.hero2-hero3{
+	font-size: 16px;
+	line-height: 1;
+	margin-bottom: .25em;
+	font-weight: 400;
+	font-family: "Avalon", sans-serif;
+	/*color: #f42;*/
+}
+
