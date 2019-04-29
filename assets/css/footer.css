@@ -1,9 +1,22 @@
 footer {
- color: #fff;
+ color: #aaa;
+}
+
+.darker-section, .lighter-section {
+ padding: 1.25em 0;
 }
 
 .lighter-section {
  background-color: #131313;
+}
+
+.darker-section {
+ background-color: #000;
+ font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+}
+
+.darker-section .text-centered a img {
+ height: 9px;
 }
 
 footer ul {

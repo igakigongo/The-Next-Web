@@ -38,6 +38,10 @@ body {
  color: #aaa;
 }
 
+.text-centered {
+ text-align: center;
+}
+
 /* Header Section (Navigation Bars) */
 .nav ul {
  display: flex;
