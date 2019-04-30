@@ -63,11 +63,8 @@ body {
  padding: 10px 10px;
 }
 
-/*.main-nav {
- margin-right: 100px;
-}*/
-.main-nav li {
- margin-right: 23px;
+.main-nav {
+ display: none;
 }
 
 .timer-section {
