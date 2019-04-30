@@ -3,10 +3,26 @@
 
 <head>
  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
  <title>TNW</title>
+ <!-- Global to all resolutions -->
  <link href="./assets/css/reset.css" rel="stylesheet" />
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
- <link href="./assets/css/app.css" rel="stylesheet" />
+ <!-- Custom Resolution CSS -->
+ <!-- width < 576px  -->
+ <link rel="stylesheet" media="screen and (max-width: 575.98px)" href="./assets/css/_576px/app.css" />
+
+ <!-- 576px <= width && (below 768px) -->
+ <link rel="stylesheet" media="screen and (min-width: 576px) and (max-width: 767.98px)" href="./assets/css/576to768/app.css" />
+
+ <!-- 768px <= width && (below 992px) -->
+ <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991.98px)" href="./assets/css/768to992/app.css" />
+
+ <!-- 992px <= width && (below 1200px) -->
+ <link rel="stylesheet" media="screen and (min-width: 992px) and (max-width: 1199.98px)" href="./assets/css/992to1200/app.css" />
+
+ <!-- 1200px upwards  -->
+ <link rel="stylesheet" media="screen and (min-width: 1200px)" href="./assets/css/app.css" />
  <link href="./assets/css/cover-articles.css" rel="stylesheet" />
  <link href="./assets/css/latest-news.css" rel="stylesheet" />
  <link href="./assets/css/latest-funding.css" rel="stylesheet" />
@@ -41,10 +57,10 @@
    </nav>
    <div class="timer-section">
     <div><i class="fas fa-search"></i></div>
-    <img src="./assets/conf-ams17-logo-red.svg" alt ="TNW-conference">
-     <div> starts in </div>
-     <div>08 : 21 : 29 : 59 </div>
-     <a href="#">get tickets</a>
+    <img src="./assets/conf-ams17-logo-red.svg" alt="TNW-conference">
+    <div> starts in </div>
+    <div>08 : 21 : 29 : 59 </div>
+    <a href="#">get tickets</a>
    </div>
   </div>
   <div class="nav-advert">
@@ -57,9 +73,9 @@
     <div class="overlay">
      <div class="Logo-day-date">
       <div class="img-holder">
-          <img src="./assets/tnw.svg">
+       <img src="./assets/tnw.svg">
       </div>
-        <p>Monday — April 29, 2019 WORLD</p>
+      <p>Monday — April 29, 2019 WORLD</p>
      </div>
      <div class="cover-header">
       <h5>insight</h5>

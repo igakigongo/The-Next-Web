@@ -1,17 +1,17 @@
 @font-face {
  font-family: "ARS Maquette";
- src: url("../fonts/ars-maquette-bold.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/ars-maquette-regular.woff") format("woff");
+ src: url("../../fonts/ars-maquette-bold.eot?#iefix") format("embedded-opentype"),
+  url("../../fonts/ars-maquette-regular.woff") format("woff");
 }
 
 @font-face {
  font-family: "Avalon";
- src: url("../fonts/avalon-bold.woff") format("woff");
+ src: url("../../fonts/avalon-bold.woff") format("woff");
 }
 
 @font-face {
  font-family: "Shentox";
- src: url("../fonts/shentox-medium.woff") format("woff");
+ src: url("../../fonts/shentox-medium.woff") format("woff");
 }
 
 body {
@@ -51,11 +51,12 @@ body {
 
 .nav-dark {
  background-color: #000;
- color: #aaa;
+ /*color: #aaa;*/
+ color: yellow;
 }
 
 .nav-dark ul li a {
- color: #aaa;
+ color: yellow;
  font-size: 12px;
  font-weight: 500;
  text-decoration: none;
