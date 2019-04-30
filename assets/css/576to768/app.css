@@ -59,7 +59,7 @@ body {
  display: flex;
  flex-direction: row;
  justify-content: space-between;
- padding: 10px 10px;
+ padding: 0 10px;
 }
 
 .main-nav {
@@ -67,52 +67,22 @@ body {
 }
 
 .timer-section {
+ align-items: center;
  display: flex;
  flex-direction: row;
- align-items: center;
+ font-size: 1em;
  justify-content: flex-end;
  width: 600px;
 }
 
-.timer-section p {
- padding-right: 20px;
-}
-
-.timer-section img {
- width: 125px;
-}
-
-.timer-section a {
- text-decoration: none;
- color: white;
- text-transform: uppercase;
- border-radius: 3px;
- background-color: #0cc;
- font-weight: 700;
- padding: 0 12px;
- line-height: 28px;
- cursor: pointer;
- font-size: 11px;
-}
-
-.timer-section a:hover {
- background-color: purple;
-}
-
-.timer-section div:nth-child(3) {
- font-family: Shentox, sans-serif;
- font-weight: 500;
- color: #555;
- font-size: 12px;
- text-transform: uppercase;
+.timer-section img, .timer-section a, .timer-section div:nth-child(3) {
+ display: none;
 }
 
 .timer-section div:nth-child(4) {
+ color: #f42;
  font-family: Shentox, sans-serif;
  font-weight: 500;
- color: #f42;
- font-size: 22px;
- text-transform: uppercase;
 }
 
 .timer-section div {
@@ -120,7 +90,12 @@ body {
 }
 
 .timer-section div, img, a {
- margin-right: 5px;
+ margin-right: 0;
+}
+
+.timer-section .fa-search {
+ color: #aaa;
+ font-size: .85em
 }
 
 .nav-advert {
