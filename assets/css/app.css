@@ -76,12 +76,12 @@ body {
  display: flex;
  flex-direction: row;
  justify-content: space-between;
- padding: 16px 10px;
+ padding: 10px 10px;
 }
 
-.main-nav {
+/*.main-nav {
  margin-right: 100px;
-}
+}*/
 
 .main-nav li {
  margin-right: 23px;
@@ -91,7 +91,9 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	width: 500px;
+	justify-content: flex-end;
+	width: 600px;
+	
 }
 .timer-section p{
 	padding-right: 20px;
@@ -129,7 +131,7 @@ body {
 	font-family: Shentox,sans-serif;
 	font-weight: 500;
 	color:#f42;
-	font-size: 12px;
+	font-size: 22px;
 	text-transform: uppercase;
 }
 
