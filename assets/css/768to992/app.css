@@ -95,20 +95,21 @@ body {
 .main-nav-holder {
  align-items: center;
  background-color: #e8e8e8;
+ color: #aaa;
  display: flex;
  flex-direction: row;
- justify-content: space-between;
- padding: 10px 5px;
- position: relative;
- z-index: 1;
- height: 48px;
  font-family: Shentox,sans-serif;
- text-transform: uppercase;
- color: #aaa;
  font-weight: 400;
  font-size: 0.8em;
+ height: 48px;
+ justify-content: space-between;
  margin-left: 2em;
+ padding: 10px 5px;
+ position: relative;
+ text-transform: uppercase;
+ z-index: 1;
 }
+
 .main-nav{
 	width: 500px;
 }

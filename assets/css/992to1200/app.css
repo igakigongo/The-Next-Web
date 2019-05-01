@@ -81,10 +81,10 @@ body {
 }
 
 /*.main-nav {
- margin-right: 100px;
 }*/
 .main-nav li {
  margin-right: 23px;
+ white-space: nowrap; 
 }
 
 .timer-section {
