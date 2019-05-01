@@ -19,6 +19,10 @@ body {
  font-size: 14px;
 }
 
+.header{
+	width: 662px;
+}
+
 .wrapper {
  margin: 0 auto;
  max-width: 1192px;
@@ -41,18 +45,35 @@ body {
 .text-centered {
  text-align: center;
 }
+.img-logo-head{
+	width: 106px;
+	height: 80px;
+	background-color: red;
+	background-image: url('../../tnw.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 1em;
+/*	background-size: cover;
+*/	position: absolute;
+	z-index: 3;
+}
 
 /* Header Section (Navigation Bars) */
 .nav ul {
  display: flex;
  flex-direction: row;
- margin: 0 15px;
+  margin: 0 15px;
+  margin-left: 8em;
 }
 
 .nav-dark {
  background-color: #000;
  /*color: #aaa;*/
  color: yellow;
+ position: relative;
+ z-index: 1;
+ height: 32px;
+
 }
 
 .nav-dark ul li a {
@@ -77,14 +98,24 @@ body {
  display: flex;
  flex-direction: row;
  justify-content: space-between;
- padding: 10px 10px;
+ padding: 10px 5px;
+ position: relative;
+ z-index: 1;
+ height: 48px;
+ font-family: Shentox,sans-serif;
+ text-transform: uppercase;
+ color: #aaa;
+ font-weight: 400;
+ font-size: 0.8em;
+ margin-left: 2em;
+}
+.main-nav{
+	width: 500px;
 }
 
-/*.main-nav {
- margin-right: 100px;
-}*/
 .main-nav li {
- margin-right: 23px;
+ margin-right: 15px;
+ white-space: nowrap;
 }
 
 .timer-section {
@@ -93,10 +124,13 @@ body {
  align-items: center;
  justify-content: flex-end;
  width: 600px;
+ white-space: nowrap;
 }
-
-.timer-section p {
- padding-right: 20px;
+.timer-section img, .timer-section a, .timer-section div:nth-child(3) {
+ display: none;
+}
+.timer-section div.search {
+ padding-right: 10px;
 }
 
 .timer-section img {
@@ -132,8 +166,8 @@ body {
  font-family: Shentox, sans-serif;
  font-weight: 500;
  color: #f42;
- font-size: 22px;
- text-transform: uppercase;
+ font-size: 14px;
+
 }
 
 .timer-section div {
@@ -197,6 +231,8 @@ section .main-heading a {
 .sub-section ul li:last-child {
  border-left: none;
 }
+
+
 
 @media (min-width: 768px) {
  section .main-heading {
