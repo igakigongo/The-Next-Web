@@ -8,7 +8,7 @@
 
 .hero1 {
  background-color: #000;
- background-image: url("../images/hero-section/battledroid-Cropped-796x419.jpg");
+ background-image: url("../../images/hero-section/battledroid-Cropped-796x419.jpg");
  background-position: 50%;
  background-size: cover;
  grid-column: 1/5;
@@ -20,7 +20,7 @@
 }
 
 .hero2 {
- background-image: url('../images/hero-section/carrefour-blockchain-cryptocurrency-796x450.jpg');
+ background-image: url('../../images/hero-section/carrefour-blockchain-cryptocurrency-796x450.jpg');
  background-position: 50%;
  background-size: cover;
  grid-column: 5/7;
@@ -29,7 +29,7 @@
 
 .hero3 {
  background-color: gray;
- background-image: url('../images/hero-section/new-breed-_chivas-796x531.jpeg');
+ background-image: url('../../images/hero-section/new-breed-_chivas-796x531.jpeg');
  background-position: 50%;
  background-size: cover;
  grid-column: 5/7;
@@ -37,8 +37,8 @@
 }
 
 .overlay {
- background: url("../images/cover-gradient.png") left top no-repeat,
-  url("../images/image-gradient.png") bottom right repeat-x;
+ background: url("../../images/cover-gradient.png") left top no-repeat,
+  url("../../images/image-gradient.png") bottom right repeat-x;
  background-size: cover;
  height: 100%;
  opacity: .6;
@@ -46,7 +46,7 @@
 }
 
 .overlay2 {
- background: url("../images/image-gradient.png") bottom right repeat-x;
+ background: url("../../images/image-gradient.png") bottom right repeat-x;
  background-size: cover;
  height: 100%;
  opacity: .5;
@@ -82,13 +82,13 @@
 
 .overlay .cover-header {
  position: relative;
- top: 220px;
+ top: 300px;
 }
 
 .cover-header h2 {
  color: #f42;
  font-family: "Avalon", sans-serif;
- font-size: 56px;
+ font-size: 2.5em;
  font-weight: 700;
  line-height: 1;
  margin-bottom: .25em;
@@ -148,21 +148,25 @@
 .cover-byline {
  display: flex;
  flex-direction: row;
+ font-size: 12px;
 }
 
 .cover-byline li {
  margin-right: 10px;
 }
-.Logo-day-date{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+
+.logo-day-date {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
 }
+
 .img-holder {
-	width: 50%;
+ width: 50%;
 }
-.Logo-day-date p{
-	width: 45%;
-	display: flex;
-	justify-content: flex-end;
+
+.logo-day-date p {
+ width: 45%;
+ display: flex;
+ justify-content: flex-end;
 }
