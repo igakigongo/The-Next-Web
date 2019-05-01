@@ -74,28 +74,12 @@
 
 .container .overlay {
  color: white;
- padding: 20px;
  position: absolute;
  width: 100%;
 }
 
-.overlay .cover-header {
- position: relative;
- top: 220px;
-}
-
-.cover-header h2 {
- color: #f42;
- font-family: "Avalon", sans-serif;
- font-size: 56px;
- font-weight: 700;
- line-height: 1;
- margin-bottom: .25em;
- opacity: 1;
-}
-
 .cover-header h5 {
- text-transform: uppercase;
+ display: none;
 }
 
 .container .overlay2 {
@@ -103,11 +87,8 @@
  width: 100%;
 }
 
-.cover-header2 {
+.cover-header, .cover-header2 {
  padding: 10px;
-}
-
-.overlay2 .cover-header2 {
  position: relative;
  top: 195px;
 }
@@ -121,11 +102,11 @@
  width: auto;
 }
 
-.cover-header2 h2 {
+.cover-header h2, .cover-header2 h2 {
  color: #f42;
  font-family: "Avalon", sans-serif;
- font-size: 16px;
- font-weight: 400;
+ font-size: 1.25em;
+ font-weight: 700;
  line-height: 1;
  margin-bottom: .4em;
  opacity: 1;
@@ -147,6 +128,7 @@
 .cover-byline {
  display: flex;
  flex-direction: row;
+ font-size: .75em;
 }
 
 .cover-byline li {
