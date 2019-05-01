@@ -19,6 +19,10 @@ body {
  font-size: 14px;
 }
 
+.header {
+ width: 662px;
+}
+
 .wrapper {
  margin: 0 auto;
  max-width: 1192px;
@@ -42,17 +46,33 @@ body {
  text-align: center;
 }
 
+.img-logo-head {
+ background-color: red;
+ background-image: url('../../tnw.svg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: auto 1em;
+ height: 80px;
+ position: absolute;
+ width: 106px;
+ z-index: 3;
+}
+
 /* Header Section (Navigation Bars) */
 .nav ul {
  display: flex;
  flex-direction: row;
  margin: 0 15px;
+ margin-left: 8em;
 }
 
 .nav-dark {
  background-color: #000;
  /*color: #aaa;*/
  color: yellow;
+ position: relative;
+ z-index: 1;
+ height: 32px;
 }
 
 .nav-dark ul li a {
@@ -74,17 +94,28 @@ body {
 .main-nav-holder {
  align-items: center;
  background-color: #e8e8e8;
+ color: #aaa;
  display: flex;
  flex-direction: row;
+ font-family: Shentox, sans-serif;
+ font-weight: 400;
+ font-size: 0.8em;
+ height: 48px;
  justify-content: space-between;
- padding: 10px 10px;
+ margin-left: 2em;
+ padding: 10px 5px;
+ position: relative;
+ text-transform: uppercase;
+ z-index: 1;
 }
 
-/*.main-nav {
-}*/
+.main-nav {
+ width: 500px;
+}
+
 .main-nav li {
- margin-right: 23px;
- white-space: nowrap; 
+ margin-right: 15px;
+ white-space: nowrap;
 }
 
 .timer-section {
@@ -93,10 +124,15 @@ body {
  align-items: center;
  justify-content: flex-end;
  width: 600px;
+ white-space: nowrap;
 }
 
-.timer-section p {
- padding-right: 20px;
+.timer-section img, .timer-section a, .timer-section div:nth-child(3) {
+ display: none;
+}
+
+.timer-section div.search {
+ padding-right: 10px;
 }
 
 .timer-section img {
@@ -104,16 +140,16 @@ body {
 }
 
 .timer-section a {
- text-decoration: none;
- color: white;
- text-transform: uppercase;
- border-radius: 3px;
  background-color: #0cc;
- font-weight: 700;
- padding: 0 12px;
- line-height: 28px;
+ border-radius: 3px;
+ color: white;
  cursor: pointer;
+ text-decoration: none;
+ text-transform: uppercase;
  font-size: 11px;
+ font-weight: 700;
+ line-height: 28px;
+ padding: 0 12px;
 }
 
 .timer-section a:hover {
@@ -121,19 +157,15 @@ body {
 }
 
 .timer-section div:nth-child(3) {
- font-family: Shentox, sans-serif;
- font-weight: 500;
  color: #555;
+ font-family: Shentox, sans-serif;
  font-size: 12px;
+ font-weight: 500;
  text-transform: uppercase;
 }
 
 .timer-section div:nth-child(4) {
- font-family: Shentox, sans-serif;
- font-weight: 500;
- color: #f42;
- font-size: 22px;
- text-transform: uppercase;
+ display: none;
 }
 
 .timer-section div {
