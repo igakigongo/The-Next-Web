@@ -3,7 +3,6 @@
  grid-gap: 10px;
  grid-template: repeat(3, 20em) / repeat(6, 1fr);
  padding: 3px 5px;
- /*z-index: 1;*/
 }
 
 .hero1 {
@@ -154,18 +153,10 @@
  margin-right: 10px;
 }
 
-.Logo-day-date {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
+.logo-day-date {
+ display: none;
 }
 
 .img-holder {
  width: 50%;
-}
-
-.Logo-day-date p {
- width: 45%;
- display: flex;
- justify-content: flex-end;
 }
