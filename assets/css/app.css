@@ -75,15 +75,15 @@ body {
  background-color: #e8e8e8;
  display: flex;
  flex-direction: row;
+ font-family: Shentox, sans-serif;
  justify-content: space-between;
- padding: 10px 10px;
+ padding: 10px 5px;
 }
 
-/*.main-nav {
- margin-right: 100px;
-}*/
 .main-nav li {
  margin-right: 23px;
+ text-transform: uppercase;
+ white-space: nowrap;
 }
 
 .timer-section {
