@@ -22,7 +22,10 @@
 
 .latest-news .story-title {
  font-size: 100%;
- padding-left: 5.5rem;
+ padding-left: 6.5rem;
+}
+.news-article .price{
+   padding-left: 6.5rem;
 }
 
 .deal-image {

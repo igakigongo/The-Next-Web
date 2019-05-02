@@ -59,7 +59,8 @@
 .news-article .story-title {
  font-size: 16px;
  font-weight: 700;
- line-height: 20px
+ line-height: 20px;
+ padding-left: 6.5rem;
 }
 
 .news-article .story-byline {
@@ -70,4 +71,5 @@
  font-weight: 700;
  line-height: 1.5;
  padding-top: 5px;
+ padding-left: 6.5rem;
 }
