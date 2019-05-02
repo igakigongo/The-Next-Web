@@ -152,7 +152,7 @@ section .main-heading a {
  border-left: 1px solid #f42;
  color: #f42;
  display: inline-block;
- font-size: 1.15em;
+ font-size: 100%;
  margin-left: .45em;
  padding-left: .45em;
 }
