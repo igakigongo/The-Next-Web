@@ -1,0 +1,96 @@
+.deals-header {
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+ grid-template-rows: 32px;
+}
+
+.deals-header ul {
+ display: grid;
+ grid-template-columns: 1fr 2fr 1fr;
+}
+
+.deals-header ul li {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ border-right: 1px solid red;
+}
+
+.deals-header div {
+ align-items: center;
+ display: flex;
+ flex-direction: row;
+}
+
+.latest-funding .funds-article {
+ background-color: #fffaf8;
+ position: relative;
+}
+
+.latest-funding img {
+ width: 60px;
+ height: 60px;
+ position: absolute;
+ top: 10px;
+ left: 10px;
+}
+
+.latest-funding .clear {
+ display: flex;
+ flex-direction: column;
+}
+
+.latest-funding .clear3, .section-3 {
+ background-color: #fffaf8;
+}
+
+.latest-funding .clear3 {
+ padding: 15px 10px;
+ /*margin-left: 15px;*/
+}
+
+.latest-funding .clear3 p {
+ margin-bottom: 10px;
+}
+
+.latest-funding .clear3 p:nth-child(2) {
+ margin-bottom: 0;
+}
+
+.latest-funding .clear3 span {
+ padding-right: 10px;
+}
+
+.funds-article p.underline {
+ border-bottom: 1px solid rgba(255, 68, 34, .25);
+}
+
+.funds-article .section-3 {
+ padding: 15px 10px 40px 10px;
+ font-size: .75em
+}
+
+.funds-article .section-3 p {
+ line-height: 1.7;
+}
+
+.funding-amount, .funding-title {
+ font-family: Avalon, sans-serif;
+ font-size: 18px;
+ padding: 11px 0 11px 90px;
+}
+
+.funding-amount {
+ color: #000;
+}
+
+.funding-title {
+ color: #fff;
+}
+
+.latest-funding .text-muted {
+ font-family: Shentox, sans-serif;
+ font-size: 12px;
+ font-weight: 500;
+}
