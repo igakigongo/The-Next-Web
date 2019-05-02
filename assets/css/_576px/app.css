@@ -121,6 +121,7 @@ section .main-heading, section .sub-section {
 
 section .main-heading {
  float: left;
+ font-size: 28px;
 }
 
 section .sub-section {
@@ -137,6 +138,7 @@ section .main-heading a {
 
 .main-heading a i {
  display: inline-block;
+ font-size: 60%;
  margin-bottom: 2px;
  margin-left: 4px;
 }
@@ -159,7 +161,7 @@ section .main-heading a {
  border-left: none;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
  section .main-heading {
   font-size: 28px;
  }
@@ -167,4 +169,4 @@ section .main-heading a {
  section .main-heading a i {
   font-size: 16px;
  }
-}
+}*/
