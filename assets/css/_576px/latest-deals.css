@@ -1,3 +1,8 @@
+.price {
+  padding-left: 5.5rem;
+  font-size: 0.75rem;
+}
+
 .price li {
  display: inline-block;
 }
@@ -15,11 +20,26 @@
  font-size: 1.25em;
 }
 
+.latest-news .story-title{
+  font-size: 1rem;
+}
 .deal-image {
- width: 100%;
+ width: 14%;
+ height: 100%;
+
+}
+.news-article{
+  /* height: 75px; */
+}
+
+.news-article a{
+  display: block;
+  height: 4.5em;
+  position: absolute;
 }
 
 .discount-tag {
+ display: none;
  background: url('../images/latest-deals/deals-ribbon.svg') no-repeat;
  background-size: cover;
  height: 6.25em;
@@ -31,6 +51,7 @@
 }
 
 .discount-tag-price {
+ display: none;
  color: #000;
  font-weight: bold;
  margin: 0 auto;
