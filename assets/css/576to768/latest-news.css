@@ -56,11 +56,11 @@
  background-image: url('../../images/latest-news/Screen-Shot-2019-04-24-at-15.30.29-482x270.png');
 }
 
-.news-article .story-title {
- font-size: 16px;
- font-weight: 700;
+.news-article .story-title1 {
+ font-size: 14px;
+ font-weight: 400;
  line-height: 20px;
- padding-left: 6.5rem;
+ padding-left: 5.5rem;
 }
 
 .news-article .story-byline {
@@ -71,5 +71,5 @@
  font-weight: 700;
  line-height: 1.5;
  padding-top: 5px;
- padding-left: 6.5rem;
+ padding-left: 5.5rem;
 }
