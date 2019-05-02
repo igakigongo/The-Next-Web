@@ -14,7 +14,9 @@
  color: #555;
  font-size: 1.25em;
 }
-
+.latest-news h2.main-heading{
+  height: 48px;
+}
 .deal-image {
  width: 100%;
 }
