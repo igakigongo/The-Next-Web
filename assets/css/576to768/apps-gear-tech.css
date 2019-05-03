@@ -19,6 +19,18 @@
  width: 100%;
 }
 
+.ad-content::after {
+ background: transparent url('../../images/image-gradient.png') repeat-x;
+ bottom: 0;
+ content: '';
+ left: 0;
+ /*opacity: 0.5;*/
+ position: absolute;
+ right: 0;
+ top: 0;
+ z-index: 10;
+}
+
 .float h4, .float p {
  color: white;
  font-size: 14px;
@@ -26,11 +38,12 @@
 }
 
 .ad-content .float {
+ bottom: 5px;
  color: white;
  line-height: 20px;
  padding: 14px;
  position: absolute;
- bottom: 5px;
+ z-index: 20;
 }
 
 .float p.first {
