@@ -61,39 +61,6 @@
  line-height: 1.25;
 }
 
-/*Ad Content: Background Images */
-.img1 {
- background-image: url('../../images/apps-gear-tech/img2.png');
-}
-
-.img2 {
- background-image: url('../../images/apps-gear-tech/philips-hue-starter-kit-header-image-368x276.png');
-}
-
-.img3 {
- background-image: url('../../images/apps-gear-tech/Photoxpress_5557101.jpg');
-}
-
-.img4 {
- background-image: url('../../images/apps-gear-tech/Untitled-design-7-368x276.jpg');
-}
-
-.img5 {
- background-image: url('../../images/apps-gear-tech/roland-368x276.jpg');
-}
-
-.img6 {
- background-image: url('../../images/apps-gear-tech/Opening-Party-23.jpg');
-}
-
-.img7 {
- background-image: url('../../images/apps-gear-tech/shutterstock.jpg');
-}
-
-.img8 {
- background-image: url('../../images/apps-gear-tech/firefox-stop.jpg');
-}
-
 /* Latest Content: Right Floated Images */
 .latest-content .right-floated-image {
  background-position: 45% 90%;
@@ -101,38 +68,6 @@
  background-size: cover;
  height: 96px;
  width: 35%;
-}
-
-.img-applebag {
- background-image: url(../../images/apps-gear-tech/Apple-tag.jpg);
-}
-
-.img-apple-macbook {
- background-image: url(../../images/apps-gear-tech/Apple-MacBook.jpg);
-}
-
-.img-chicken {
- background-image: url(../../images/apps-gear-tech/chicken1200-368x276.png);
-}
-
-.img-coinbase {
- background-image: url(../../images/apps-gear-tech/Coinbase.jpg);
-}
-
-.img-mk-maga-hat {
- background-image: url(../../images/apps-gear-tech/MK-MAGA-hat.jpg);
-}
-
-.img-photoxpress {
- background-image: url(../../images/apps-gear-tech/Pre-Launch-KV-796x448.png);
-}
-
-.img-stadia-black-hed {
- background-image: url(../../images/apps-gear-tech/Stadia-black-hed.jpg);
-}
-
-.img-white {
- background-image: url(../../images/apps-gear-tech/white.png);
 }
 
 /* Other Stories */
