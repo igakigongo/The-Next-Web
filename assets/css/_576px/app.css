@@ -116,17 +116,17 @@ section {
 }
 
 section .main-heading, section .sub-section {
- width: 50%;
+ /*width: 100%;*/
 }
 
 section .main-heading {
- float: left;
+ /*float: left;*/
  font-size: 28px;
 }
 
-section .sub-section {
+/*section .sub-section {
  float: right;
-}
+}*/
 
 section .main-heading a {
  color: #f42;
@@ -144,29 +144,19 @@ section .main-heading a {
 }
 
 .sub-section ul {
- direction: rtl;
- padding-top: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .sub-section ul li {
- border-left: 1px solid #f42;
  color: #f42;
  display: inline-block;
  font-size: 100%;
- margin-left: .45em;
- padding-left: .45em;
+ padding-top: 1em;
+ margin-top: 11px;
 }
 
 .sub-section ul li:last-child {
  border-left: none;
 }
-
-/*@media (min-width: 768px) {
- section .main-heading {
-  font-size: 28px;
- }
-
- section .main-heading a i {
-  font-size: 16px;
- }
-}*/
