@@ -23,7 +23,7 @@
 
 
 .discount-tag {
- background: url('../images/latest-deals/deals-ribbon.svg') no-repeat;
+ background: url('../../images/latest-deals/deals-ribbon.svg') no-repeat;
  background-size: cover;
  height: 6.25em;
  position: absolute;

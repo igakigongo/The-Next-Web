@@ -2,7 +2,7 @@
  display: grid;
  grid-auto-rows: minmax(270px, auto);
  grid-gap: 1.25em;
- grid-template-columns: repeat(3, 1fr);
+ grid-template-columns: 1fr;
  margin-top: 3em;
 }
 
@@ -63,35 +63,35 @@
 
 /*Ad Content: Background Images */
 .img1 {
- background-image: url('../images/apps-gear-tech/img2.png');
+ background-image: url('../../images/apps-gear-tech/img2.png');
 }
 
 .img2 {
- background-image: url('../images/apps-gear-tech/philips-hue-starter-kit-header-image-368x276.png');
+ background-image: url('../../images/apps-gear-tech/philips-hue-starter-kit-header-image-368x276.png');
 }
 
 .img3 {
- background-image: url('../images/apps-gear-tech/Photoxpress_5557101.jpg');
+ background-image: url('../../images/apps-gear-tech/Photoxpress_5557101.jpg');
 }
 
 .img4 {
- background-image: url('../images/apps-gear-tech/Untitled-design-7-368x276.jpg');
+ background-image: url('../../images/apps-gear-tech/Untitled-design-7-368x276.jpg');
 }
 
 .img5 {
- background-image: url('../images/apps-gear-tech/roland-368x276.jpg');
+ background-image: url('../../images/apps-gear-tech/roland-368x276.jpg');
 }
 
 .img6 {
- background-image: url('../images/apps-gear-tech/Opening-Party-23.jpg');
+ background-image: url('../../images/apps-gear-tech/Opening-Party-23.jpg');
 }
 
 .img7 {
- background-image: url('../images/apps-gear-tech/shutterstock.jpg');
+ background-image: url('../../images/apps-gear-tech/shutterstock.jpg');
 }
 
 .img8 {
- background-image: url('../images/apps-gear-tech/firefox-stop.jpg');
+ background-image: url('../../images/apps-gear-tech/firefox-stop.jpg');
 }
 
 /* Latest Content: Right Floated Images */
