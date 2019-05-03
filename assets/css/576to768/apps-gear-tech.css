@@ -45,6 +45,8 @@
  display: flex;
  flex-direction: row;
  height: 96px;
+ justify-content: space-between;
+ margin-top: 2px;
  width: 100%;
 }
 
@@ -100,7 +102,7 @@
  background-repeat: no-repeat;
  background-size: cover;
  height: 96px;
- width: 35%;
+ width: 15%;
 }
 
 .img-applebag {
