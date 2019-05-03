@@ -189,17 +189,17 @@ section {
  padding-top: 1.5em;
 }
 
-section .main-heading, section .sub-section {
+/*section .main-heading, section .sub-section {
  width: 50%;
-}
+}*/
 
-section .main-heading {
+/*section .main-heading {
  float: left;
 }
 
 section .sub-section {
  float: right;
-}
+}*/
 
 section .main-heading a {
  color: #f42;
@@ -216,9 +216,9 @@ section .main-heading a {
 }
 
 .sub-section ul {
- direction: rtl;
  padding-top: 1em;
 }
+
 
 .sub-section ul li {
  border-left: 1px solid #f42;
@@ -229,11 +229,15 @@ section .main-heading a {
  padding-left: .45em;
 }
 
-.sub-section ul li:last-child {
+.sub-section ul li:first-child {
  border-left: none;
+ padding-left: 0;
+ margin-left: 0;
 }
 
-
+.funds-article:first-child{
+	display: none;
+}
 
 @media (min-width: 768px) {
  section .main-heading {
