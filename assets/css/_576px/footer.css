@@ -1,5 +1,6 @@
 footer {
  color: #aaa;
+ margin-top: 1.5rem;
 }
 
 .darker-section, .lighter-section {
@@ -27,13 +28,14 @@ footer ul {
 }
 
 footer ul li {
- margin: 0 .75em;
+ margin: 0 .25rem;
 }
 
 footer ul li a {
  color: #aaa;
  font-family: Shentox, sans-serif;
  font-size: 13px;
+ margin-right: 0;
  text-decoration: none;
 }
 
