@@ -21,38 +21,6 @@
  width: 100%;
 }
 
-.latest-news-image1 {
- background-image: url('../../images/latest-news/OPPO-header-image-reno-516x270.png');
-}
-
-.latest-news-image2 {
- background-image: url('../../images/latest-news/01-Digital-2019.png');
-}
-
-.latest-news-image3 {
- background-image: url('../../images/latest-news/AC-Unity-Free-Ubisoft-516x270.jpg');
-}
-
-.latest-news-image4 {
- background-image: url('../../images/latest-news/diihuu-516x270.jpg');
-}
-
-.latest-news-image5 {
- background-image: url('../../images/latest-news/rhino1200-796x417.png');
-}
-
-.latest-news-image6 {
- background-image: url('../../images/latest-news/Google-Play-budget-hed-513x270.jpg');
-}
-
-.latest-news-image7 {
- background-image: url('../../images/latest-news/dna-163466_1280-480x270.jpg');
-}
-
-.latest-news-image8 {
- background-image: url('../../images/latest-news/Screen-Shot-2019-04-24-at-15.30.29-482x270.png');
-}
-
 .news-article .story-title {
  font-size: 16px;
  font-weight: 700;
