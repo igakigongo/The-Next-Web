@@ -24,31 +24,41 @@
  bottom: 0;
  content: '';
  left: 0;
- /*opacity: 0.5;*/
  position: absolute;
  right: 0;
  top: 0;
  z-index: 10;
 }
 
-.float h4, .float p {
- color: white;
- font-size: 14px;
- font-weight: 700;
-}
-
 .ad-content .float {
  bottom: 5px;
- color: white;
+ color: #fff;
  line-height: 20px;
  padding: 14px;
  position: absolute;
  z-index: 20;
 }
 
-.float p.first {
- line-height: 1.4;
- margin-bottom: 5px;
+.float :first-child {
+ font-family: Shentox, sans-serif;
+ font-weight: 500;
+ letter-spacing: .04em;
+ line-height: 1.5;
+ text-transform: uppercase;
+}
+
+.float p:nth-of-type(1) {
+ font-size: 20px;
+ font-weight: 700;
+ line-height: 1.1;
+ margin-bottom: 6px;
+}
+
+.float p:nth-of-type(2n) {
+ color: #aaa;
+ color: hsla(0, 0%, 100%, .6);
+ font-weight: 500;
+ line-height: 16px;
 }
 
 .latest-content {
