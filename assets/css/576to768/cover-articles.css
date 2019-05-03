@@ -54,7 +54,8 @@
 .latest-funding {
  display: grid;
  grid-gap: 20px;
- grid-template: repeat(1, 20em) / repeat(4, 1fr);
+ grid-template: 1fr;
+ grid-template: 1fr;
  margin-top: 50px;
 }
 
