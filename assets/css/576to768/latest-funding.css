@@ -28,12 +28,16 @@
  position: relative;
 }
 
+.latest-funding .funds-article:last-child {
+ display: none;
+}
+
 .latest-funding img {
- width: 60px;
  height: 60px;
+ left: 10px;
  position: absolute;
  top: 10px;
- left: 10px;
+ width: 60px;
 }
 
 .latest-funding .clear {
@@ -47,7 +51,6 @@
 
 .latest-funding .clear3 {
  padding: 15px 10px;
- /*margin-left: 15px;*/
 }
 
 .latest-funding .clear3 p {

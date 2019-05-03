@@ -14,7 +14,7 @@
  background-repeat: no-repeat;
  background-size: cover;
  clear: both;
- height: 270px;
+ height: 540px;
  position: relative;
  width: 100%;
 }
@@ -30,7 +30,7 @@
  line-height: 20px;
  padding: 14px;
  position: absolute;
- top: 150px;
+ bottom: 5px;
 }
 
 .float p.first {
