@@ -7,7 +7,6 @@
 
 .hero1 {
  background-color: #000;
- background-image: url("../../images/hero-section/battledroid-Cropped-796x419.jpg");
  background-position: 50%;
  background-size: cover;
  grid-column: 1/7;
@@ -19,7 +18,6 @@
 }
 
 .hero2 {
- background-image: url('../../images/hero-section/carrefour-blockchain-cryptocurrency-796x450.jpg');
  background-position: 50%;
  background-size: cover;
  grid-column: 1/7;
@@ -28,7 +26,6 @@
 
 .hero3 {
  background-color: gray;
- background-image: url('../../images/hero-section/new-breed-_chivas-796x531.jpeg');
  background-position: 50%;
  background-size: cover;
  grid-column: 1/7;
@@ -36,8 +33,6 @@
 }
 
 .overlay {
- background: url("../../images/cover-gradient.png") left top no-repeat,
-  url("../../images/image-gradient.png") bottom right repeat-x;
  background-size: cover;
  height: 100%;
  opacity: .6;
@@ -45,7 +40,6 @@
 }
 
 .overlay2 {
- background: url("../../images/image-gradient.png") bottom right repeat-x;
  background-size: cover;
  height: 100%;
  opacity: .5;
@@ -55,7 +49,7 @@
  display: grid;
  grid-gap: 20px;
  grid-template-columns: 1fr;
- grid-template-rows:  20em;
+ grid-template-rows: 20em;
  margin-top: 50px;
 }
 

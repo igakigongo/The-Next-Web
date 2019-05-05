@@ -1,19 +1,3 @@
-@font-face {
- font-family: "ARS Maquette";
- src: url("../../fonts/ars-maquette-bold.eot?#iefix") format("embedded-opentype"),
-  url("../../fonts/ars-maquette-regular.woff") format("woff");
-}
-
-@font-face {
- font-family: "Avalon";
- src: url("../../fonts/avalon-bold.woff") format("woff");
-}
-
-@font-face {
- font-family: "Shentox";
- src: url("../../fonts/shentox-medium.woff") format("woff");
-}
-
 body {
  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
  font-size: 14px;
@@ -127,7 +111,6 @@ section .main-heading {
 /*section .sub-section {
  float: right;
 }*/
-
 section .main-heading a {
  color: #f42;
  font-family: Avalon, sans-serif;
@@ -144,9 +127,9 @@ section .main-heading a {
 }
 
 .sub-section ul {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
 }
 
 .sub-section ul li {

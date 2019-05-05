@@ -1,3 +1,25 @@
+/* Cover Articles */
+.hero1 {
+ background-image: url('../images/hero-section/battledroid-Cropped-796x419.jpg');
+}
+
+.hero2 {
+ background-image: url('../images/hero-section/carrefour-blockchain-cryptocurrency-796x450.jpg');
+}
+
+.hero3 {
+ background-image: url('../images/hero-section/new-breed-_chivas-796x531.jpeg');
+}
+
+.overlay {
+ background: url("../images/cover-gradient.png") left top no-repeat,
+  url("../images/image-gradient.png") bottom right repeat-x;
+}
+
+.overlay2 {
+ background: url('../images/image-gradient.png') bottom right repeat-x;
+}
+
 /* Latest News */
 .latest-news-image1 {
  background-image: url('../images/latest-news/OPPO-header-image-reno-516x270.png');
