@@ -1,0 +1,101 @@
+.apps-gear-tech .grid {
+ display: grid;
+ grid-auto-rows: minmax(270px, auto);
+ grid-gap: 1.25em;
+ grid-template-columns: repeat(2, 1fr);
+ margin-top: 3em;
+}
+
+.apps-gear-tech .main-heading {
+ padding-bottom: 0.5em;
+}
+
+.ad-content {
+ background-repeat: no-repeat;
+ background-size: cover;
+ clear: both;
+ height: 270px;
+ position: relative;
+ width: 100%;
+}
+
+.float h4, .float p {
+ color: white;
+ font-size: 14px;
+ font-weight: 700;
+}
+
+.ad-content .float {
+ color: white;
+ line-height: 20px;
+ padding: 14px;
+ position: absolute;
+ top: 150px;
+}
+
+.float p.first {
+ line-height: 1.4;
+ margin-bottom: 5px;
+}
+
+.latest-content {
+ background-color: rgb(255, 68, 34);
+ background-color: rgba(255, 68, 34, .08);
+ color: #f42;
+ display: flex;
+ flex-direction: row;
+ height: 96px;
+ width: 100%;
+}
+
+.latest-content .section-latest-header {
+ padding: 20px;
+}
+
+.section-latest-header h4, .section-latest-header h5 {
+ line-height: 1.4;
+}
+
+.section-latest-title {
+ font-weight: 700;
+ line-height: 1.25;
+}
+
+/* Latest Content: Right Floated Images */
+.latest-content .right-floated-image {
+ background-position: 45% 90%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 96px;
+ width: 35%;
+}
+
+/* Other Stories */
+.other-stories {
+ padding: 1.25em 0;
+}
+
+.other-stories li {
+ border-bottom: 1px solid #e8e8e8;
+ -webkit-box-sizing: content-box;
+ -moz-box-sizing: content-box;
+ box-sizing: content-box;
+ height: 2.25em;
+ list-style: disc;
+ list-style-position: inside;
+ padding: .5em 0;
+ position: relative;
+}
+
+.other-stories li a {
+ color: #aaa;
+ left: 1em;
+ line-height: 1.4;
+ position: absolute;
+ text-decoration: none;
+}
+
+.other-stories li a:active, .other-stories li a:hover, .other-stories li a:visited {
+ color: #555;
+ text-decoration: none;
+}

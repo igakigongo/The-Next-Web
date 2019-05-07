@@ -1,0 +1,40 @@
+.price {
+ font-size: 0.75rem;
+ padding-left: 5.5rem;
+}
+
+.price li {
+ display: inline-block;
+}
+
+.price li:first-child {
+ color: #aaa;
+ font-size: 1em;
+ margin-right: .5em;
+ padding: .5em 0;
+ text-decoration: line-through;
+}
+
+.price li:last-child {
+ color: #555;
+ font-size: 1.25em;
+}
+
+.latest-news .story-title {
+ font-size: 1rem;
+}
+
+.deal-image {
+ height: 100%;
+ width: 14%;
+}
+
+.news-article a {
+ display: block;
+ height: 4.5em;
+ position: absolute;
+}
+
+.discount-tag, .discount-tag-price {
+ display: none;
+}
