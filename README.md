@@ -3,6 +3,9 @@
 In this project, we got the chance to build a responsive website. Cloning [The Next Web](https://thenextweb.com), a tech-focused magazine which uses media 
 queries to gracefully degrade their site as the window size is reduced.
 
+Our cloned website can be viewed [here](https://igakigongo.github.io/The-Next-Web/). Kindly note that only changes pushed to the
+[master branch](https://github.com/igakigongo/The-Next-Web/tree/master) contribute towards the deployed site on github.io.
+
 ### Design Decisions
 For each resolution we decided to save the files in a dedicated directory, why? In order to have the smaller screen devices load extremely 
 small css files since we realized that some of the large display styles did not apply to the small devices.
